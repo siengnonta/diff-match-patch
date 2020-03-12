@@ -1,0 +1,151 @@
+BCSymbolMap Version: 2.0
++[Diff diffWithOperation:andText:]
+-[Diff initWithOperation:andText:]
+-[Diff dealloc]
+-[Diff copyWithZone:]
+-[Diff description]
+-[Diff isEqual:]
+-[Diff isEqualToDiff:]
+-[Diff hash]
+-[Diff operation]
+-[Diff setOperation:]
+-[Diff text]
+-[Diff setText:]
+-[Patch init]
+-[Patch dealloc]
+-[Patch copyWithZone:]
+-[Patch description]
+-[Patch diffs]
+-[Patch setDiffs:]
+-[Patch start1]
+-[Patch setStart1:]
+-[Patch start2]
+-[Patch setStart2:]
+-[Patch length1]
+-[Patch setLength1:]
+-[Patch length2]
+-[Patch setLength2:]
+-[DiffMatchPatch init]
+-[DiffMatchPatch dealloc]
+-[DiffMatchPatch diff_mainOfOldString:andNewString:]
+-[DiffMatchPatch diff_mainOfOldString:andNewString:checkLines:]
+-[DiffMatchPatch diff_mainOfOldString:andNewString:checkLines:deadline:]
+-[DiffMatchPatch diff_commonPrefixOfFirstString:andSecondString:]
+-[DiffMatchPatch diff_commonSuffixOfFirstString:andSecondString:]
+-[DiffMatchPatch diff_commonOverlapOfFirstString:andSecondString:]
+-[DiffMatchPatch diff_halfMatchOfFirstString:andSecondString:]
+-[DiffMatchPatch diff_halfMatchIOfLongString:andShortString:index:]
+-[DiffMatchPatch diff_computeFromOldString:andNewString:checkLines:deadline:]
+-[DiffMatchPatch diff_lineModeFromOldString:andNewString:deadline:]
+-[DiffMatchPatch diff_bisectOfOldString:andNewString:deadline:]
+-[DiffMatchPatch diff_bisectSplitOfOldString:andNewString:x:y:deadline:]
+-[DiffMatchPatch diff_linesToCharsForFirstString:andSecondString:]
+-[DiffMatchPatch diff_chars:toLines:]
+-[DiffMatchPatch diff_cleanupMerge:]
+-[DiffMatchPatch diff_cleanupSemanticLossless:]
+-[DiffMatchPatch diff_cleanupSemanticScoreOfFirstString:andSecondString:]
+-[DiffMatchPatch diff_cleanupEfficiency:]
+-[DiffMatchPatch diff_prettyHtml:]
+-[DiffMatchPatch diff_text1:]
+-[DiffMatchPatch diff_text2:]
+-[DiffMatchPatch diff_toDelta:]
+-[DiffMatchPatch diff_fromDeltaWithText:andDelta:error:]
+-[DiffMatchPatch diff_xIndexIn:location:]
+-[DiffMatchPatch diff_levenshtein:]
+-[DiffMatchPatch diff_cleanupSemantic:]
+-[DiffMatchPatch match_mainForText:pattern:near:]
+-[DiffMatchPatch match_bitapOfText:andPattern:near:]
+-[DiffMatchPatch match_bitapScoreForErrorCount:location:near:pattern:]
+-[DiffMatchPatch match_alphabet:]
+-[DiffMatchPatch patch_addContextToPatch:sourceText:]
+-[DiffMatchPatch patch_makeFromOldString:andNewString:]
+-[DiffMatchPatch patch_makeFromDiffs:]
+-[DiffMatchPatch patch_makeFromOldString:newString:diffs:]
+-[DiffMatchPatch patch_makeFromOldString:andDiffs:]
+-[DiffMatchPatch patch_deepCopy:]
+-[DiffMatchPatch patch_apply:toString:]
+-[DiffMatchPatch patch_addPadding:]
+-[DiffMatchPatch patch_splitMax:]
+-[DiffMatchPatch patch_toText:]
+-[DiffMatchPatch patch_fromText:error:]
+-[DiffMatchPatch Diff_Timeout]
+-[DiffMatchPatch setDiff_Timeout:]
+-[DiffMatchPatch Diff_EditCost]
+-[DiffMatchPatch setDiff_EditCost:]
+-[DiffMatchPatch Match_Threshold]
+-[DiffMatchPatch setMatch_Threshold:]
+-[DiffMatchPatch Match_Distance]
+-[DiffMatchPatch setMatch_Distance:]
+-[DiffMatchPatch Patch_DeleteThreshold]
+-[DiffMatchPatch setPatch_DeleteThreshold:]
+-[DiffMatchPatch Patch_Margin]
+-[DiffMatchPatch setPatch_Margin:]
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+/Users/eko/diff-match-patch/DiffMatchPatch.m
+/Users/eko/diff-match-patch
+DiffMatchPatch.h
+DiffMatchPatch.m
+splice
+CFStringGetCharacterFromInlineBuffer
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+CFStringInitInlineBuffer
+diff_CFStringPrepareUniCharBuffer
+DiffMatchPatchCFUtilities.h
++[NSString(UnicharUtilities) diff_stringFromUnichar:]
+-[NSString(UnicharUtilities) diff_substringWithCharacterAtIndex:]
+/Users/eko/diff-match-patch/NSString+UnicharUtilities.m
+NSString+UnicharUtilities.m
+-[NSMutableDictionary(DMPExtensions) diff_objectForIntegerKey:]
+-[NSMutableDictionary(DMPExtensions) diff_objectForUnsignedIntegerKey:]
+-[NSMutableDictionary(DMPExtensions) diff_objectForUnicharKey:]
+-[NSMutableDictionary(DMPExtensions) diff_integerForKey:]
+-[NSMutableDictionary(DMPExtensions) diff_unsignedIntegerForKey:]
+-[NSMutableDictionary(DMPExtensions) diff_integerForIntegerKey:]
+-[NSMutableDictionary(DMPExtensions) diff_unsignedIntegerForUnicharKey:]
+-[NSMutableDictionary(DMPExtensions) diff_containsObjectForKey:]
+-[NSMutableDictionary(DMPExtensions) containsObjectForIntegerKey:]
+-[NSMutableDictionary(DMPExtensions) diff_containsObjectForUnicharKey:]
+-[NSMutableDictionary(DMPExtensions) diff_setIntegerValue:forKey:]
+-[NSMutableDictionary(DMPExtensions) diff_setIntegerValue:forIntegerKey:]
+-[NSMutableDictionary(DMPExtensions) diff_setUnsignedIntegerValue:forKey:]
+-[NSMutableDictionary(DMPExtensions) diff_setUnsignedIntegerValue:forUnsignedIntegerKey:]
+-[NSMutableDictionary(DMPExtensions) diff_setUnsignedIntegerValue:forUnicharKey:]
+/Users/eko/diff-match-patch/NSMutableDictionary+DMPExtensions.m
+NSMutableDictionary+DMPExtensions.m
+_diff_cleanupSemanticScore.cold.1
+_diff_cleanupSemanticScore.cold.2
+_diff_cleanupSemanticScore.firstRun
+_diff_cleanupSemanticScore.alphaNumericSet
+_diff_cleanupSemanticScore.whiteSpaceSet
+_diff_cleanupSemanticScore.controlSet
+_diff_cleanupSemanticScore.blankLineEndRegEx
+_diff_cleanupSemanticScore.blankLineStartRegEx
+/Users/eko/diff-match-patch/DiffMatchPatchCFUtilities.c
+diff_cleanupSemanticScore
+DiffMatchPatchCFUtilities.c
+diff_linesToCharsMungeCFStringCreate
+diff_CFStringCreateJavaSubstring
+diff_CFStringCreateSubstring
+diff_halfMatchICreate
+diff_CFStringCreateLeftSubstring
+diff_halfMatchCreate
+diff_commonOverlap
+diff_CFStringCreateRightSubstring
+diff_commonSuffix
+diff_commonPrefix
+diff_regExMatch
+diff_CFStringCreateByCombiningTwoStrings
+diff_CFStringCreateSubstringWithStartIndex
+diff_LeftSubstringRange
+diff_RightSubstringRange
+diff_CFStringCreateFromUnichar
+-[NSString(JavaSubstring) diff_javaSubstringFromStart:toEnd:]
+/Users/eko/diff-match-patch/NSString+JavaSubstring.m
+NSString+JavaSubstring.m
+-[NSString(UriCompatibility) diff_stringByAddingPercentEscapesForEncodeUriCompatibility]
+-[NSString(UriCompatibility) diff_stringByReplacingPercentEscapesForEncodeUriCompatibility]
+/Users/eko/diff-match-patch/NSString+UriCompatibility.m
+NSString+UriCompatibility.m
+/Users/eko/Library/Developer/Xcode/DerivedData/DiffMatchPatch-bmuujihqapeyquarqgngoobneksj/Build/Intermediates.noindex/ArchiveIntermediates/DiffMatchPatch_iOS/IntermediateBuildFilesPath/DiffMatchPatch.build/Release-iphoneos/DiffMatchPatch_iOS.build/DerivedSources/DiffMatchPatch_vers.c

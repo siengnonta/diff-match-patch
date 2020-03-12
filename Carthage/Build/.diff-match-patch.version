@@ -1,0 +1,21 @@
+{
+  "Mac" : [
+    {
+      "name" : "DiffMatchPatch",
+      "hash" : "5ef57c9a6cbe2f99310536c205f9dd5dcce5482b6998df4598e0902a41351e87"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "v1.0.0",
+  "iOS" : [
+    {
+      "name" : "DiffMatchPatch",
+      "hash" : "a0dc735495e434293b259bd86df3df823ef8ce653970e7dbf1149d4561687f5b"
+    }
+  ]
+}
